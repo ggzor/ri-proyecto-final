@@ -1,4 +1,4 @@
-# Primer Parcial de Recuperación de la Información
+# Proyecto Final de Recuperación de la Información
 
 En este repositorio se encuentra el programa y los resultados del proyecto final de
 Recuperación de la Información.
