@@ -1,6 +1,6 @@
 # Primer Parcial de Recuperación de la Información
 
-En este repositorio se encuentra el programa y los resultados del primer parcial de
+En este repositorio se encuentra el programa y los resultados del proyecto final de
 Recuperación de la Información.
 
 ## Equipo:
@@ -12,18 +12,35 @@ Recuperación de la Información.
 
 ## Contenidos:
 
-- `main.py`: Contiene el programa principal en Python con el algoritmo
-- `stopwords.txt`: Contiene las palabras cerradas en Inglés extraídas
-                   de la librería nltk.
-- `originales/`: Esta carpeta contiene todas los documentos originales del examen
-- `pasos/`: Esta carpeta contiene los pasos llevados a cabo sobre los documentos
-            originales.
-- `procesados/`: Esta carpeta contiene los documentos finales después del procesamiento.
+- `main.py`: Contiene el programa principal en Python
+- `extractor.py`: Contiene el programa en Python para extraer los documentos
+- `ProyectoF.txt`: Contiene los documentos originales
+- `PalabrasCerradas.txt`: Contiene las palabras cerradas del Español
+
+## Resultados
+- `procesado.txt`: Contiene el texto transformado de XML a texto plano.
+- `noticias_procesadas.txt`: Contiene los documentos procesados.
+- `vocabulario.txt`: El vocabulario obtenido de los documentos.
+- `tf.csv`: La tabla TF como archivo separado por comas.
+- `idf.csv`: La tabla IDF como archivo separado por comas.
+- `representacion_documentos.csv`: La representación de los documentos como
+    vectores con TF/IDF.
+- `similitud_documentos.csv`: Contiene la tabla con todas las similitudes entre
+    los pares de documentos.
+
+## Ejecución
+Para ejecutar el programa, basta con invocar python o python3 según sea el caso
+con el nombre del script principal en la carpeta que contiene los documentos y
+el archivo principal.
+
+```powershell
+python main.py
+```
 
 ## Notas adicionales:
 
 Para poder ejecutar el programa es necesario hacer la instalación de Python y de la
-librería nltk.
+librería **nltk**.
 
 1. Instalación de Python
 
