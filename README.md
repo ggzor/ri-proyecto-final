@@ -29,11 +29,12 @@ Recuperación de la Información.
     los pares de documentos.
 
 ## Ejecución
-Para ejecutar el programa, basta con invocar python o python3 según sea el caso
-con el nombre del script principal en la carpeta que contiene los documentos y
+Para ejecutar el programa, basta con invocar `python` o `python3` según sea el caso
+con el nombre de los scripts de Python en la carpeta que contiene los documentos y
 el archivo principal.
 
 ```powershell
+python extractor.py
 python main.py
 ```
 
